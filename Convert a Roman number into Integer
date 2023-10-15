@@ -1,0 +1,44 @@
+
+	public class RomanNumToInteger {
+	   public static void main(String args[]) {
+	      RomanNumToInteger obj = new RomanNumToInteger();
+	      String inputRoman= "LIX";
+	      System.out.println("The Integer value of "+inputRoman+"  is: "+obj.romanToInteger(inputRoman));
+	   } 
+	   int NumberValue(char rom) {
+	      if (rom == 'I')
+	         return 1;
+	      if (rom == 'V')
+	         return 5;
+	      if (rom == 'X')
+	         return 10;
+	      if (rom == 'L')
+	         return 50;
+	      if (rom == 'C')
+	         return 100;
+	      if (rom == 'D')
+	         return 500;
+	      if (rom == 'M')
+	         return 1000;
+	      return -1;
+	   }
+	   int romanToInteger(String str) {
+	      int sum = 0;
+	      for (int i=0; i<str.length(); i++) {
+	         int r1 = NumberValue(str.charAt(i));
+	         if (i+1 <str.length()) {
+	           int r2 = NumberValue(str.charAt(i+1));
+	           if (r1 >= r2) {
+	              sum = sum + r1;
+	           }
+	           else{
+	              sum = sum - r1;
+	           }
+	        }
+	        else {
+	           sum = sum + r1;
+	        } 
+	     }  
+	     return sum;
+	   }
+	} 
