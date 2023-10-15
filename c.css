@@ -1,0 +1,108 @@
+
+		/* Styling the Body element i.e. Color, 
+		Font, Alignment */ 
+		body {
+			background-color: #959ef8;
+			font-family: Verdana;
+			text-align: center;
+		}
+
+		/* Styling the Form (Color, Padding, Shadow) */
+        form {
+		    background-color: #fff;
+    max-width: 567px;
+    margin: 53px auto;
+    padding: 70px 85px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);}
+		/* Styling form-control Class */
+		.form-control {
+			text-align: left;
+			margin-bottom: 25px;
+			padding-right: -33px;
+		}
+      
+
+
+		/* Styling form-control Label */ 
+		.form-control label {
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		/* Styling form-control input, 
+		select, textarea */
+		.form-control input,
+		.form-control select,
+		.form-control textarea {
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			padding: 10px;
+			display: block;
+			width: 95%;
+		}
+
+		/* Styling form-control Radio 
+		button and Checkbox */
+		.form-control input[type="radio"],
+		.form-control input[type="checkbox"] {
+			display: inline-block;
+			width: auto;
+		}
+
+		/* Styling Button */
+		button {
+			background-color: #0508c4;
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			font-size: 21px;
+			color:#fff;
+			display: block;
+			width: 100%;
+			margin-top: 50px;
+			margin-bottom: 20px;
+			
+		}
+	.sub{
+		top: 911px;
+		left: 497px;
+			width: 152px;
+			height: 124px;
+			display: flex;
+			overflow: hidden;
+			position: absolute;
+			align-items: flex-start;
+			flex-shrink: 0;
+			border-radius: 10px;
+		
+	
+		text-decoration: none;
+		color: rgb(255, 255, 255);
+	}
+	
+	.res{
+		
+		top: 911px;
+		left: 862px;
+		color:rgb(255, 255, 255) ;
+			width: 152px;
+			height: 124px;
+			display: flex;
+			overflow: hidden;
+			position: absolute;
+			align-items: flex-start;
+			flex-shrink: 0;
+			border-radius: 10px;
+			text-decoration: none;
+		color: rgb(255, 255, 255);
+	}
+	
+			.cud{
+				top:auto;
+				left: 10px;
+				color:rgb(255, 255, 255) ;
+				font-style: oblique;
+				
+			}
+			
